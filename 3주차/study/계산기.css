@@ -1,0 +1,65 @@
+.calculator{
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.calculator :nth-child(1)
+{
+    grid-column: 1/span 3;
+    grid-row: 1/span 1;
+    background-color: rgb(138, 138, 138);
+    border-radius: 25px;
+} 
+
+.calculator :nth-child(2){
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 1;
+    background-color: lightgrey;
+    border-radius: 100px;
+}
+.calculator :nth-child(3){
+    grid-column: 2/span 1;
+    grid-row: 2/ span 1;
+    background-color: lightgrey;
+    border-radius: 100px;
+}
+.calculator :nth-child(4){
+    grid-column: 1/span 1;
+    grid-row: 3/ span 1;
+    background-color: lightgrey;
+    border-radius: 100px;
+}
+.calculator :nth-child(5){
+    grid-column: 2/span 1;
+    grid-row: 3/ span 1;
+    background-color: lightgrey;
+    border-radius: 100px;
+}
+.calculator :nth-child(6){
+    grid-column: 1/span 2;
+    grid-row: 4/ span 1;
+    background-color: white;
+}
+.calculator :nth-child(7){
+    grid-column: 3/span 1;
+    grid-row: 2/ span 1;
+    background-color: orange;
+}
+.calculator :nth-child(8){
+    grid-column: 3/span 1;
+    grid-row: 3/ span 1;
+    background-color: orange;
+}
+.calculator :nth-child(9){
+    grid-column: 3/span 1;
+    grid-row: 4/ span 1;
+    background-color: orange;
+}
+

@@ -1,0 +1,75 @@
+body{
+    background-size: cover; /*배경 사진을 한개만 놓기 위해 사용*/
+    background-image: url("images/seapic.jpg");
+}
+h3{
+    color:rgb(33, 45, 92);
+}
+#menubar ul{
+    margin: 0;
+    padding: 0;
+    width: 600px;
+}
+#menubar ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 15px;
+}
+#menubar ul li a{
+    text-decoration: none;
+    color:rgb(25, 23, 138)
+}
+.introducePage{
+    display: grid;
+    width: 800px;
+    height: 800px;
+    justify-items: center;
+    margin: 0 auto;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    gap: 15px;
+}
+.intro{
+    grid-column: 1/span 2;
+    grid-row: 1/span 1;
+}
+.introduceMe{
+    grid-column: 1/span 1;
+    grid-row: 2/span 2;
+    background-color: rgb(209, 209, 217);
+    border-radius: 40px;
+    
+}
+.MyFavoriteSport{
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+.showTable{
+    border-spacing: 20px; /*표 간 여백을 주기 위해 사용*/
+    text-align: center;
+}
+.WantTripSpace{
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    background-color: rgb(176, 225, 229);
+    border-radius: 40px;
+}
+.MyFavoriteSong{
+    grid-column: 1/span 2;
+    grid-row: 4/span 1;
+    background-color: rgb(238, 250, 172);
+    border-radius: 40px;
+}
+.image{
+    width: 120px;
+    height: 110px;
+}
+.title{
+    text-align: center;
+}
+.introSong{
+    display: inline-block;
+    padding: 0px 20px;
+}

@@ -1,0 +1,49 @@
+.instaLoginForm{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.smartphoneImg{
+    display: inline-block;
+}
+.loginForm{
+    display: inline-block;
+}
+.idInput{
+    border-style: solid;
+    border-width: 1px;
+    width: 500px;
+    text-align: center;
+}
+#instalogo{
+    width: 250px;
+    height: 150px;
+}
+#Id, #password{
+    width: 400px;
+    height: 30px;
+    background-color: ghostwhite;
+}
+#saveinfo{
+    text-align: left;
+    padding-left: 42px;
+}
+#login{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    border-style: none;
+    background-color: rgb(44, 182, 241);
+    color:white;
+}
+.linking{
+    text-decoration: none;
+    color: blue;
+}
+#download{
+    border-style: none;
+}
+#googleplayImg, #microsoftImg{
+    width: 200px;
+    height: 70px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인스타그램 로그인 화면 구현</title>
+    <link rel="stylesheet" href="homework1.css">
+</head>
+<body>
+    <div class="instaLoginForm">
+        <div class="smartphoneImg">
+            <img class="smartphoneImg" src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk">
+        </div>
+        <div class="loginForm">
+            <div class="idInput">
+                <img src="https://fontmeme.com/images/instagram-new-logo.png" alt="instagram logo" id = "instalogo"><br> 
+                <form>
+                    <input type="text" placeholder = "전화번호, 사용자 이름 또는 이메일" id="Id"><br>
+                    <input type="password" placeholder = "비밀번호" id="password"><br>
+                    <p id="saveinfo"><input type="checkbox" name="saveInfo">로그인 정보 저장하기</p>
+                    <button id="login" value="로그인">로그인</button>
+                </form>
+                <br>
+                <p>----------------------------    또는    ----------------------------</p><br>
+                <img src="facebook.svg" width = 30px height = 30px alt="facebooklogo">
+                <a href="https://ko-kr.facebook.com/" class="linking"><b>Facebook으로 로그인</b></a><br>
+                <p>비밀번호를 잊으셨나요?</p>
+            </div><br>
+            <div class="idInput">
+                <p>계정이 없으신가요? <a href="" class="linking">가입하기</a></p>
+            </div>
+            <div class="idInput" id="download">
+                <p>앱을 다운로드하세요</p>
+                <table id="downloadApp">
+                    <tbody>
+                        <tr>
+                            <td><img id ="googleplayImg" src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png"></td>
+                            <td><img id = "microsoftImg" src="https://static.cdninstagram.com/rsrc.php/v3/yw/r/LBxTdceDfgS.png"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
