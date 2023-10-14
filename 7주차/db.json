@@ -1,0 +1,35 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "content": "HTML",
+      "completed": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Oh Seong Hun",
+      "email": "osh8137@naver.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "username": "Hong Gil Dong",
+      "email": "kinghong@gmail.com",
+      "password": "kinghong12"
+    },
+    {
+      "username": "로메로",
+      "email": "kingj@gmail.com",
+      "password": "loddmwkk12",
+      "id": 3
+    },
+    {
+      "username": "뽀로로",
+      "email": "ilikeplaying@naver.com",
+      "password": "ilikeplying90",
+      "id": 4
+    }
+  ]
+}

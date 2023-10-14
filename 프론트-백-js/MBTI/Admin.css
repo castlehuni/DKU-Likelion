@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+.HomeWindow{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    width: 100%;
+    height: 100vh;
+    gap: 40px;
+}
+.ATopWindow{
+    display: flex;
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+    background-color: black;
+    color: #FFCB42;
+}
+#movehome{
+    text-decoration: none;
+    color: #FFCB42;
+}
+#Homebtn{
+    border: 2px solid #FFCB42;
+    border-radius: 10px;
+    color: #FFCB42;
+    background-color: black;
+    width: 300px;
+    height: 40px;
+}
+.AMainWindow{
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.AMainWindow :nth-child(1){
+    grid-column: 1/span 4;
+    grid-row: 1/span 1;
+}
+.AMainWindow :nth-child(2){
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+}
+.AMainWindow :nth-child(3){
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+}
+.AMainWindow :nth-child(4){
+    grid-column: 1/span 1;
+    grid-row: 4/span 1;
+}
+.AMainWindow :nth-child(5){
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+.AMainWindow :nth-child(6){
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+}
+.AMainWindow :nth-child(7){
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+}
+.AMainWindow :nth-child(8){
+    grid-column: 3/span 1;
+    grid-row: 2/span 1;
+}
+.AMainWindow :nth-child(9){
+    grid-column: 3/span 1;
+    grid-row: 3/span 1;
+}
+.AMainWindow :nth-child(10){
+    grid-column: 3/span 1;
+    grid-row: 4/span 1;
+}
+.AMainWindow :nth-child(11){
+    grid-column: 4/span 1;
+    grid-row: 2/span 1;
+}
+.AMainWindow :nth-child(12){
+    grid-column: 4/span 1;
+    grid-row: 3/span 1;
+}
+.AMainWindow :nth-child(13){
+    grid-column: 4/span 1;
+    grid-row: 4/span 1;
+}
+.MBTIbtn{
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    height: 120px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.AendWindow{
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+    height: 70px;
+    background-color: black;
+}
+.intro{
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(201, 201, 201);
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#writeMBTIinfo{
+    width: 820px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#addMBTI{
+    grid-column: 1/span 4;
+    grid-row: 5/span 1;
+}
+#addMBTIbtn{
+    width: 820px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+#moverhome{
+    text-decoration: none;
+    color: black;
+}

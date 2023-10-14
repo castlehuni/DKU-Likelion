@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.ResultWindow{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    width: 100%;
+    height: 100vh;
+    gap: 40px;
+}
+.RTopWindow{
+    display: flex;
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+    background-color: black;
+    color: #FFCB42;
+}
+.showMBTIInfo{
+    text-align: center;
+}
+#showInfoBox{
+    margin: 0 auto;
+    background-color: rgb(230, 230, 230);
+    width: 850px;
+    height: 330px;
+    border-radius: 10px;
+    line-height: 330px;
+}
+.RendWindow{
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+    height: 70px;
+    background-color: black;
+}
+#etcbtnWindow{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.etcbtn{
+    border: 2px solid #FFCB42;
+    border-radius: 30px;
+    color: #FFCB42;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+}
+.moveothers{
+    text-decoration: none;
+    color: #FFCB42;
+}
